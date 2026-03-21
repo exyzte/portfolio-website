@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "id": "domo-burger",
+      "title": "Domo Burguer",
+      "description": "Featured: A high-end burger delivery platform featuring an AI Agent assistant, Leaflet integration, and custom map interactions.",
+      "tech": ["MERN", "AI Agent", "Leaflet", "Map Customization"],
+      "videoPlaceholder": "/videos/domo-burger-demo.mp4",
+      "type": "featured"
+    },
+    {
+      "id": "project-2",
+      "title": "AI Documentation Hub",
+      "description": "A centralized hub for technical documentation with advanced search and AI summarization capabilities.",
+      "tech": ["Next.js", "OpenAI", "Tailwind"],
+      "type": "secondary"
+    },
+    {
+      "id": "project-3",
+      "title": "Language Learner Pro",
+      "description": "Personalized language learning app leveraging spaced repetition and LLM-powered practice partners.",
+      "tech": ["React Native", "Vector DB", "Modern Languages"],
+      "type": "secondary"
+    }
+  ],
+  "roadmap": [
+    {
+      "period": "Past",
+      "title": "Modern Languages Expert",
+      "description": "Mastering syntax, structure, and pattern recognition in human languages. Developing cultural intelligence and communication clarity."
+    },
+    {
+      "period": "Transition",
+      "title": "Full Stack Foundations",
+      "description": "Applying linguistic structural logic to MERN stack development. Bridging the gap between human and machine intent."
+    },
+    {
+      "period": "Present",
+      "title": "AI Agent Architect",
+      "description": "Building the next generation of interactive interfaces. Specializing in autonomous agents and AI-driven user experiences."
+    }
+  ]
+}
