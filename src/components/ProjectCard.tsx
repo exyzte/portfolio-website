@@ -123,24 +123,23 @@ export default function ProjectCard({ title, description, tags, image, isFeature
       </div>
 
       {/* Content */}
-      <div ref={contentRef} className="relative z-20 h-full p-8 flex flex-col justify-end">
+      <div ref={contentRef} className="relative z-20 h-full p-8 flex flex-auto justify-end">
         <div className="mb-4">
-          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-yellow-500 mb-2 block">
+          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-yellow-500 mb-1 block">
             {isFeatured ? "Featured Project" : "Secondary Project"}
           </span>
-          <h3 className="text-4xl font-black text-white italic -ml-0.5">{title}</h3>
+          <h3 className="text-2xl font-black text-white italic -ml-0.5">{title}</h3>
         </div>
         
-        <p className="text-neutral-400 mb-4 text-sm max-w-md line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+        <p className="text-neutral-400 mb-8 text-sm max-w-md line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
           {description}
         </p>
         <br></br>
-        <br></br>
         {/* Tech Bar (Slides In) */}
-        <div ref={techBarRef} className="absolute inset-x-0 bottom-0 p-6 opacity-0 translate-y-5">
+        <div ref={techBarRef} className="absolute inset-x-0 bottom-0 p-6 opacity-0 translate-y-5 mt-10">
            <div className="flex flex-wrap gap-2 p-3 rounded-xl glass-card">
              {tags.map(tag => (
-               <span key={tag} className="px-2.5 py-1 text-[9px] uppercase font-bold tracking-widest bg-white/5 border border-white/10 text-white rounded-md">
+               <span key={tag} className="px-2.5 py-1 text-[7px] uppercase font-bold tracking-widest bg-white/5 border border-white/10 text-white rounded-md">
                  {tag}
                </span>
              ))}
