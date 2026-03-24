@@ -59,7 +59,7 @@ export default function Home() {
         <div ref={titleRef} className="relative z-10 w-full">
           <h1 className="reveal-text text-5xl md:text-[8rem] font-black leading-[0.85] tracking-tighter text-white italic mb-10">
             FULL STACK<br/>
-            <span className="bg-linear-to-r from-blue-400 to-yellow-600 bg-clip-text text-transparent">DEVELOPER</span>
+            <span className="bg-linear-to-r from-blue-400 to-yellow-600 bg-clip-text text-transparent pr-2 md:pr-4">DEVELOPER</span>
           </h1>
           <p className="reveal-text max-w-2xl mx-auto md:text-lg font-medium mb-16 px-4">
             Building high-performance full-stack apps with precision and creativity, integrating AI & Automation flows.
@@ -74,7 +74,7 @@ export default function Home() {
       <div id="projects" className="w-full pt-32">
         <div className="text-center mb-16">
           <span className="text-[10px] font-mono uppercase tracking-[0.4em] text-yellow-500/50 mb-4 block">Proof of Concept</span>
-          <h2 className="text-3xl md:text-8xl font-black text-white italic tracking-tighter">Selected <span className="bg-gradient-to-r from-blue-400 to-yellow-600 bg-clip-text text-transparent italic">Works</span></h2>
+          <h2 className="text-3xl md:text-8xl font-black text-white italic tracking-tighter">Selected <span className="bg-gradient-to-r from-blue-400 to-yellow-600 bg-clip-text text-transparent italic pr-2 md:pr-4">Works</span></h2>
         </div>
         <BentoGrid />
       </div>
