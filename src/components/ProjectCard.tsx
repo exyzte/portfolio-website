@@ -107,7 +107,7 @@ export default function ProjectCard({ title, description, tags, image, isFeature
       ref={cardRef}
       onClick={onClick}
       className={`group relative overflow-hidden rounded-2xl border border-white/5 bg-[#0a0a0a] transition-colors hover:border-white/10 cursor-pointer ${
-        isFeatured ? "md:col-span-2 aspect-[17/9]" : "aspect-[7/8] flex"
+        isFeatured ? "md:col-span-2 aspect-16/9" : "aspect-7/8 flex flex-col justify-end"
       }`}
       data-cursor="VIEW"
     >

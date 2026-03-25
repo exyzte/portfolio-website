@@ -39,7 +39,7 @@ export default function Home() {
       <nav className="fixed top-8 z-[100] px-8 py-4 rounded-2xl border border-white/5 bg-black/40 backdrop-blur-2xl flex items-center gap-12 shadow-2xl">
         <div className="flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-yellow-400 shadow-[0_0_10px_#FACC15]" />
-          <span className="text-[10px] font-mono font-black tracking-[0.2em] uppercase text-white/40">David Cicery</span>
+          <span className="text-[10px] font-mono font-black tracking-[0.2em] uppercase text-white/40">Welcome</span>
         </div>
         <div className="flex items-center gap-8">
           <a href="#projects" className="text-[10px] font-bold text-white/60 hover:text-yellow-400 transition-colors uppercase tracking-[0.2em]" data-cursor="GO">Projects</a>
@@ -56,7 +56,9 @@ export default function Home() {
       <section className="relative pt-48 pb-24 w-full text-center px-4 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-yellow-400/5 to-transparent pointer-events-none opacity-50" />
 
-        <div ref={titleRef} className="relative z-10 w-full">
+        <div ref={titleRef} className="text-2xl relative z-10 w-full mt-[-80px]">
+          <h2>David Cicery</h2>
+          <br></br>
           <h1 className="reveal-text text-5xl md:text-[8rem] font-black leading-[0.85] tracking-tighter text-white italic mb-10">
             FULL STACK<br />
             <span className="bg-linear-to-r from-blue-400 to-yellow-600 bg-clip-text text-transparent pr-2 md:pr-4">DEVELOPER</span>
@@ -67,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-80 h-120 relative px-4">
+      <div className="w-80 h-120 relative px-4 mt-[-190px]">
         <HeroTerminal />
       </div>
 
