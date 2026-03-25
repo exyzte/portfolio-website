@@ -131,7 +131,7 @@ export default function ProjectCard({ title, description, tags, image, isFeature
           <h3 className="text-2xl font-black text-white italic -ml-0.5">{title}</h3>
         </div>
         
-        <p className="text-neutral-400 mb-8 text-sm max-w-md min-w-5 line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+        <p className="text-white-600 mb-8 text-sm max-w-md min-w-5 line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
           {description}
         </p>
         <br></br>

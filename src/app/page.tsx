@@ -47,7 +47,7 @@ export default function Home() {
           <div className="w-px h-4 bg-white/10" />
           <div className="flex items-center gap-5">
             <a href="https://github.com/exyzte" target="_blank"><Github  size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
-            <a href="https://www.linkedin.com/in/david-cicery-471355229/"><Linkedin size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
+            <a href="https://www.linkedin.com/in/david-cicery-471355229/" target="_blank"><Linkedin size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
             <a href="mailto:[davidecicerys@gmail.com]" target="_blank"><Mail size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
           </div> 
         </div>

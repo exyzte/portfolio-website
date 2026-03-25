@@ -28,8 +28,8 @@ const PROJECTS = [
     tech: ["React Native", "Vector DB", "Modern Languages"],
     type: "secondary",
     image: "/images/lang.jpg",
-    link: "https://full-stack-smart-restaurant-ecosystem-davids-projects-b21f3f2a.vercel.app/"
-  },
+    link: "http://localhost:5173/"
+  }
 ];
 
 export default function BentoGrid() {
