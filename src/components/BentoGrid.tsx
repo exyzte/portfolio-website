@@ -23,8 +23,8 @@ const PROJECTS = [
   },
   {
     id: "project-3",
-    title: "Language Learner Pro",
-    description: "Personalized language learning app leveraging spaced repetition and LLM-powered practice partners.",
+    title: "Music Record Label Environment",
+    description: "An immersive web experience for a music record label, showcasing releases, news, artists, albums, and interactive media.",
     tech: ["React Native", "Vector DB", "Modern Languages"],
     type: "secondary",
     image: "/images/lang.jpg",
@@ -34,8 +34,8 @@ const PROJECTS = [
 
 export default function BentoGrid() {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-24">
-      <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6">
+    <section className="w-full max-w-8xl mx-auto px-4 py-24">
+      <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.id}

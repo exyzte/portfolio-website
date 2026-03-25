@@ -115,7 +115,7 @@ export default function ProjectCard({ title, description, tags, image, isFeature
       <div ref={imageRef} className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/20 to-transparent z-10" />
         <div className="w-full h-full relative opacity-40 group-hover:opacity-60 transition-opacity transform-gpu">
-          {/* Placeholder for real images */}
+          <Image src={image} alt={title} fill className="object-cover" />
           <div className="w-full h-full bg-neutral-900 flex items-center justify-center">
              <span className="text-white/10 font-black text-6xl italic">{title[0]}</span>
           </div>
