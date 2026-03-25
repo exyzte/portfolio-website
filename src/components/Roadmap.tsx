@@ -11,8 +11,8 @@ const ROADMAP_STEPS = [
     title: "Modern Languages Expert",
     icon: <Languages className="w-6 h-6" />,
     description: "Deep dive into linguistic structures, semantics, and syntax. Developed advanced pattern recognition skills that translate directly to logical thinking.",
-    skills: ["Comparative Linguistics", "Syntax Analysis", "Communication Theory", "Digital Design, content & community management"],
-    color: "from-blue-500/20 to-transparent"
+    skills: ["Comparative Linguistics", "Syntax Analysis", "Communication Theory", "Digital Design, Content & Community Management"],
+    color: "from-blue-500/20 to-blue-6  00/20"
   },
   {
     period: "2023 - 2025",
@@ -24,11 +24,11 @@ const ROADMAP_STEPS = [
   },
   {
     period: "2025 - Present",
-    title: "AI Agent Architect",
+    title: "AI Software Architect",
     icon: <Bot className="w-6 h-6" />,
-    description: "Specializing in the development of autonomous agents and LLM-powered interfaces. Creating seamless human-AI interactions. Integrating AI into Full Stack Apps",
+    description: "Specializing in the development of autonomous agents and LLM-powered interactive systems. Creating seamless human-AI interactions. Integrating AI into Full Stack Apps",
     skills: ["AI Agents", "Prompt Engineering", "RAG Systems"],
-    color: "from-yellow-500/20 to-transparent"
+    color: "from-yellow-500/20 to-yellow-600/20"
   }
 ];
 

@@ -5,8 +5,8 @@ import ProjectCard from "./ProjectCard";
 const PROJECTS = [
   {
     id: "domo-burger",
-    title: "Domo Burguer",
-    description: "A high-end burger delivery platform featuring an AI Agent assistant, Leaflet integration, and custom map interactions.",
+    title: "AI-Restaurant Ecosystem - Domo Burguer",
+    description: "A high-end, MERN stack burger delivery platform featuring an AI Agent assistant, Leaflet integration, Order Processing and more.",
     tech: ["MERN", "AI Agent", "Leaflet", "Map Customization"],
     type: "featured",
     image: "/images/domo.jpg",
