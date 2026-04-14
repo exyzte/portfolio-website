@@ -36,19 +36,19 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center bg-[#000000]">
       {/* Navigation */}
-      <nav className="fixed top-8 z-[100] px-8 py-4 rounded-2xl border border-white/5 bg-black/40 backdrop-blur-2xl flex items-center gap-12 shadow-2xl">
-        <div className="flex items-center gap-3">
+      <nav className="fixed top-4 md:top-8 z-[100] w-[90%] md:w-max max-w-[450px] md:max-w-none px-4 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl border border-white/5 bg-black/50 md:bg-black/40 backdrop-blur-2xl flex items-center justify-between gap-4 md:gap-12 shadow-2xl">
+        <div className="hidden md:flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-yellow-400 shadow-[0_0_10px_#FACC15]" />
           <span className="text-[10px] font-mono font-black tracking-[0.2em] uppercase text-white/40">Welcome</span>
         </div>
-        <div className="flex items-center gap-8">
-          <a href="#projects" className="text-[10px] font-bold text-white/60 hover:text-yellow-400 transition-colors uppercase tracking-[0.2em]" data-cursor="GO">Projects</a>
-          <a href="#about" className="text-[10px] font-bold text-white/60 hover:text-yellow-400 transition-colors uppercase tracking-[0.2em]" data-cursor="GO">Roadmap</a>
+        <div className="flex items-center justify-between w-full md:w-auto gap-4 md:gap-8">
+          <a href="#projects" className="text-[10px] font-bold text-white/60 hover:text-yellow-400 transition-colors uppercase tracking-[0.1em] md:tracking-[0.2em]" data-cursor="GO">Projects</a>
+          <a href="#about" className="text-[10px] font-bold text-white/60 hover:text-yellow-400 transition-colors uppercase tracking-[0.1em] md:tracking-[0.2em]" data-cursor="GO">Roadmap</a>
           <div className="w-px h-4 bg-white/10" />
-          <div className="flex items-center gap-5">
-            <a href="https://github.com/exyzte" target="_blank"><Github  size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
-            <a href="https://www.linkedin.com/in/david-cicery-471355229/" target="_blank"><Linkedin size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
-            <a href="mailto:[davidecicerys@gmail.com]" target="_blank"><Mail size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer" data-cursor="VIEW" /></a>
+          <div className="flex items-center gap-3 md:gap-5">
+            <a href="https://github.com/exyzte" target="_blank"><Github size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer w-4 h-4 md:w-4 md:h-4" data-cursor="VIEW" /></a>
+            <a href="https://www.linkedin.com/in/david-cicery-471355229/" target="_blank"><Linkedin size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer w-4 h-4 md:w-4 md:h-4" data-cursor="VIEW" /></a>
+            <a href="mailto:[davidecicerys@gmail.com]" target="_blank"><Mail size={16} className="text-white/40 hover:text-white transition-colors cursor-pointer w-4 h-4 md:w-4 md:h-4" data-cursor="VIEW" /></a>
           </div> 
         </div>
       </nav>

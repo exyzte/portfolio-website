@@ -2,24 +2,40 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { Languages, Code2, Bot } from "lucide-react";
+import { Languages, Code2, Bot, Terminal, Cpu } from "lucide-react";
 import LineOfGrowth from "./LineOfGrowth";
 
 const ROADMAP_STEPS = [
+  {
+    period: "2017",
+    title: "Programming Genesis",
+    icon: <Cpu className="w-6 h-6" />,
+    description: "Began my technical journey by learning C++, HTML, JavaScript, and CSS, laying the foundational logic for software development.",
+    skills: ["C++", "HTML & CSS", "JavaScript"],
+    color: "from-emerald-500/20 to-emerald-600/20"
+  },
   {
     period: "2018 - 2023",
     title: "Modern Languages Expert",
     icon: <Languages className="w-6 h-6" />,
     description: "Deep dive into linguistic structures, semantics, and syntax. Developed advanced pattern recognition skills that translate directly to logical thinking.",
-    skills: ["Comparative Linguistics", "Syntax Analysis", "Communication Theory", "Digital Design, Content & Community Management"],
-    color: "from-blue-500/20 to-blue-6  00/20"
+    skills: ["Comparative Linguistics", "Syntax Analysis", "Communication Theory", "Community Management"],
+    color: "from-blue-500/20 to-blue-600/20"
+  },
+  {
+    period: "2019 - 2023",
+    title: "Technical Support Expert @ Microsoft",
+    icon: <Terminal className="w-6 h-6" />,
+    description: "Up & Running and Windows Technical Support. Leveraged Batch programming to write and execute scripts for troubleshooting apps, updates, and processes. Managed remote broadcasting through Quick Assist to resolve complex driver conflicts, Windows file corruptions, and registry errors.",
+    skills: ["Batch Scripting", "Windows Support", "Registry Optimization", "Troubleshooting"],
+    color: "from-cyan-500/20 to-cyan-600/20"
   },
   {
     period: "2023 - 2025",
     title: "Full Stack Foundations",
     icon: <Code2 className="w-6 h-6" />,
     description: "Mastery of the MERN stack with a focus on building structured, scalable web architectures. IBM Full Stack Developer certified, with a passion for clean code and intuitive UI/UX design.",
-    skills: ["MERN Stack", "TypeScript", "UI/UX Design", "Agile Methodologies", "Kubernetes & Cloud Deployment"],
+    skills: ["MERN Stack", "TypeScript", "UI/UX Design", "Agile Methodologies"],
     color: "from-purple-500/20 to-transparent"
   },
   {
