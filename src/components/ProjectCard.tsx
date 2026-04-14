@@ -125,13 +125,13 @@ export default function ProjectCard({ title, description, tags, image, isFeature
       {/* Content */}
       <div ref={contentRef} className="relative z-20 h-full p-8 flex flex-auto justify-end ">
         <div className="mb-4 mr-5">  
-          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-yellow-500 mb-1 block">
+          <span className="text-[9px] font-mono uppercase tracking-[0.2em] text-yellow-500 mb-1 block">
             {isFeatured ? "Featured Project" : "Secondary Project"}
           </span>
           <h3 className="text-2xl font-black text-white italic -ml-0.5">{title}</h3>
         </div>
         
-        <p className="text-white-600 mb-8 text-sm max-w-md min-w-5 line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+        <p className="text-white-600 mb-8 text-[15px] max-w-100 min-w-8 line-clamp-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
           {description}
         </p>
         <br></br>

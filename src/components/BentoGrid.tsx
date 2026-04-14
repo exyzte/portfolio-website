@@ -4,32 +4,24 @@ import ProjectCard from "./ProjectCard";
 
 const PROJECTS = [
   {
-    id: "domo-burger",
+    id: "project-1",
+    title: "Music Record Label Environment",
+    description: "An immersive app for a record label. Showcasing releases, news, artists, albums, and interactive media. Railway hosted backend with MongoDB and a React frontend. Built with a focus on sleek design, GSAP animations, and responsive design.",
+    tech: ["React Native", "Express", "TypeScript", "Node", "MongoDB - Supabase", "GSAP Animations", "Responsive Design", "Railway Hosting"],
+    type: "featured",
+    image: "/images/lang.jpg",
+    link: "https://wayra.space"
+  },
+  {
+    id: "project-2",
     title: "AI-Restaurant Ecosystem - Domo Burguer",
     description: "A high-end, MERN stack burger delivery platform featuring an AI Agent assistant, Leaflet integration, Order Processing and more.",
     tech: ["MERN", "AI Agent", "Leaflet", "Map Customization"],
     type: "featured",
     image: "/images/domo.jpg",
     link: "https://full-stack-smart-restaurant-ecosystem-davids-projects-b21f3f2a.vercel.app/"
-  },
-  {
-    id: "project-2",
-    title: "AI Documentation Hub",
-    description: "A centralized hub for technical documentation with advanced search and AI summarization capabilities.",
-    tech: ["Next.js", "OpenAI", "Tailwind"],
-    type: "secondary",
-    image: "/images/docs.jpg",
-    link: "https://full-stack-smart-restaurant-ecosystem-davids-projects-b21f3f2a.vercel.app/"
-  },
-  {
-    id: "project-3",
-    title: "Music Record Label Environment",
-    description: "An immersive web experience for a music record label, showcasing releases, news, artists, albums, and interactive media.",
-    tech: ["React Native", "Vector DB", "Modern Languages"],
-    type: "secondary",
-    image: "/images/lang.jpg",
-    link: "http://localhost:5173/"
   }
+  
 ];
 
 export default function BentoGrid() {
