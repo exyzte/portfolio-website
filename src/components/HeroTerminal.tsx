@@ -76,22 +76,22 @@ export default function HeroTerminal() {
   }, []);
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto px-4 py-20 overflow-hidden">
+    <div className="relative w-full max-w-6xl mx-auto px-4 py-10 md:py-20 overflow-hidden">
       {/* Background Neural Glow - Adjusted color to be a bit more "cold" (blue) for Windows */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/10 blur-[120px] rounded-full -z-10 animate-pulse" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-blue-500/10 blur-[80px] md:blur-[120px] rounded-full -z-10 animate-pulse" />
 
       {/* Windows UI Terminal Wrap */}
       <div ref={terminalRef} className="rounded-xl border border-white/10 overflow-hidden shadow-2xl bg-[#0c0c0c] font-sans">
         
         {/* Terminal Header - Windows Style */}
         {/* Senior Tip: Notice we swap rounded colorful dots for flex right-aligned icons */}
-        <div className="bg-[#1e1e1e] border-b border-white/10 px-4 py-3 flex items-center justify-between select-none">
+        <div className="bg-[#1e1e1e] border-b border-white/10 px-3 md:px-4 py-2 md:py-3 flex items-center justify-between select-none">
           <div className="flex items-center gap-3">
             <Terminal size={14} className="text-white/60" />
             <span className="text-xs text-white/60 tracking-wider">Command Prompt</span>
           </div>
           {/* Windows Window Controls */}
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-2 md:gap-4 items-center">
              <Minus size={15} className="text-white/60 hover:text-white cursor-pointer transition-colors" />
              <Square size={13} className="text-white/60 hover:text-white cursor-pointer transition-colors" />
              <X size={17} className="text-white/60 hover:text-red-500 cursor-pointer transition-colors" />
@@ -99,7 +99,7 @@ export default function HeroTerminal() {
         </div>
 
         {/* Terminal Body */}
-        <div className="p-8 min-h-[350px] font-mono text-sm space-y-3">
+        <div className="p-4 md:p-8 min-h-[250px] md:min-h-[350px] font-mono text-xs md:text-sm space-y-3">
           <div className="flex gap-3 items-center">
             <span ref={commandRef} className="text-gray-300">
               {commandText}
@@ -132,7 +132,7 @@ export default function HeroTerminal() {
         </div>
 
         {/* Interaction Bar */}
-        <div className="p-4 bg-black/40 border-t border-white/5 flex gap-4">
+        <div className="p-3 md:p-4 bg-black/40 border-t border-white/5 flex gap-4">
           <div className="flex items-center gap-4 text-[10px] text-gray-500 font-mono uppercase tracking-tighter">
             <span onClick={() => window.open("/projects", "_blank")} className="hover:text-blue-400 cursor-pointer transition-colors" data-cursor="VIEW">View Projects</span>
             <span onClick={() => window.open("https://github.com/exyzte", "_blank")} className="hover:text-blue-400 cursor-pointer transition-colors" data-cursor="VIEW">GitHub</span>
