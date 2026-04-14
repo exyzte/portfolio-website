@@ -85,7 +85,7 @@ export default function HeroTerminal() {
         
         {/* Terminal Header - Windows Style */}
         {/* Senior Tip: Notice we swap rounded colorful dots for flex right-aligned icons */}
-        <div className="bg-[#1e1e1e] border-b border-white/10 px-3 md:px-4 py-2 md:py-3 flex items-center justify-between select-none">
+        <div className="bg-[#1e1e1e] border-b border-white/10 px-3 md:px-3 py-2 md:py-3 flex items-center justify-between select-none">
           <div className="flex items-center gap-3">
             <Terminal size={14} className="text-white/60" />
             <span className="text-xs text-white/60 tracking-wider">Command Prompt</span>
@@ -99,7 +99,7 @@ export default function HeroTerminal() {
         </div>
 
         {/* Terminal Body */}
-        <div className="p-4 md:p-8 min-h-[250px] md:min-h-[350px] font-mono text-xs md:text-sm space-y-3">
+        <div className="p-4 md:p-6 min-h-[250px] md:min-h-[350px] font-mono text-xs md:text-sm space-y-3">
           <div className="flex gap-3 items-center">
             <span ref={commandRef} className="text-gray-300">
               {commandText}

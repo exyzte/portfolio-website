@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-150 h-120 relative px-4 mt-[-190px]">
+      <div className="w-full relative px-4 mt-[-80px] md:mt-[-190px]">
         <HeroTerminal />
       </div>
 
