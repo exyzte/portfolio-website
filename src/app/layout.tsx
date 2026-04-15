@@ -31,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark bg-[#050505]">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#050505] text-neutral-200 selection:bg-yellow-400 selection:text-black`}
       >
