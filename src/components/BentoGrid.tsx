@@ -4,6 +4,15 @@ import ProjectCard from "./ProjectCard";
 
 const PROJECTS = [
   {
+    id: "project-0",
+    title: "Dotaciones Braquile | Enterprise Catalog Platform",
+    description: "A production-grade digital catalog platform for a leading corporate clothing company. Features a custom database, GSAP-animated catalog components, administrative access, and dynamic product rendering.",
+    tech: ["Next.js", "GSAP Animations", "PostgreSQL", "Supabase", "React", "Full Stack"],
+    type: "featured",
+    image: "/images/braquile.png",
+    link: "https://dotacionesbraquile.com"
+  },
+  {
     id: "project-1",
     title: "Music Record Label Environment",
     description: "An immersive app for a record label. Showcasing releases, news, artists, albums, and interactive media. Railway hosted backend with MongoDB and a React frontend. Built with a focus on sleek design, GSAP animations, and responsive design.",
@@ -21,7 +30,6 @@ const PROJECTS = [
     image: "/images/domo.jpg",
     link: "https://full-stack-smart-restaurant-ecosystem-davids-projects-b21f3f2a.vercel.app/"
   }
-  
 ];
 
 export default function BentoGrid() {
