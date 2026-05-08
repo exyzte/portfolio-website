@@ -83,7 +83,7 @@ export default function Roadmap() {
       
       <div className="text-center mb-24 relative z-10">
         <h2 className="text-5xl md:text-7xl font-black text-white italic tracking-tighter mb-4">
-          The <span className="text-yellow-400">Roadmap</span>
+        <span className="text-yellow-400">Roadmap</span>
         </h2>
         <p className="text-neutral-500 max-w-xl mx-auto font-mono text-sm uppercase tracking-widest">
           Linguistic Precision → Machine Intelligence
