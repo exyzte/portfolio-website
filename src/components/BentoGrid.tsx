@@ -54,7 +54,7 @@ const PROJECTS = [
     description: "An immersive app for a record label. Showcasing releases, news, artists, albums, and interactive media. Railway hosted backend with MongoDB and a React frontend. Built with a focus on sleek design, GSAP animations, and responsive design.",
     tech: ["React Native", "Express", "TypeScript", "Node", "MongoDB - Supabase", "GSAP Animations", "Responsive Design", "Railway Hosting"],
     type: "featured",
-    image: "/images/lang.jpg",
+    image: "/images/wayra.png",
     link: "https://wayra.space"
   }
 ];
